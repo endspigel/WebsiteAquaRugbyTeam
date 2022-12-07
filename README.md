@@ -27,7 +27,7 @@ Gardez à l'esprit que l'application devra être pratique à utiliser et accessi
 
 -
 
-Upload de la photo du joueur
+<h4>Upload de la photo du joueur</h4>
 
 Pour uploader la photo des joueurs vous devez suivre les instructions suivantes :
 
@@ -47,13 +47,13 @@ APRÈS L'AVOIR FAIT VALIDER par votre enseignant, créer la base de données MyS
 
  
 
-Gestion des joueurs et des matchs
+<h4>Gestion des joueurs et des matchs</h4>
 
 Créer les pages nécessaires à l'affichage, l'ajout, la modification, et la suppression des joueurs et des matchs.
 
  
 
-Saisie des feuilles de match
+<h4>Saisie des feuilles de match</h4>
 
 Créer une page permettant de faire une sélection parmi les joueurs actifs et de définir pour chaque joueur choisi s'il sera titulaire ou remplaçant. Si le nombre minimum de joueurs n'est pas atteint, la sélection ne devra pas pouvoir être validée. L'interface de sélection devra afficher les informations des joueurs : photo, taille, poids, poste préféré, commentaires et évaluations de l'entraineur.
 
