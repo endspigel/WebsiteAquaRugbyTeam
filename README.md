@@ -72,7 +72,7 @@ Un tableau avec pour chaque joueur : son statut actuel, son poste préféré, le
 Si possible, ajouter également le nombre de sélections consécutives (facultatif).
  
 
-<h3>Cadre de l'application<h3>
+<h3>Cadre de l'application</h3>
 
 Sécuriser l'application en créant une page d'authentification (à l'aide d'un nom d'utilisateur et d'un mot de passe définis à l'avance). Aucune autre page de l'application ne devra être accessible si l'utilisateur n'est pas authentifié.
 
