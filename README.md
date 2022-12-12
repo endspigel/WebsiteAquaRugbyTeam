@@ -1,5 +1,4 @@
-# code
-Webdiste for a aqua rugby team
+# Website for a aqua rugby team
 
 <h2>Votre équipe favorite a besoin de vous !</h2>
 
