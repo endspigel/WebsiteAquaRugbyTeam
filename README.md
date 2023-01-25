@@ -1,6 +1,18 @@
 # Website for a aqua rugby team
 
-<h2>Votre équipe favorite a besoin de vous !</h2>
+<h2>Consignes </h2>
+Ce projet doit être réalisé en binôme.
+
+Vous pouvez choisir le sport d'équipe de votre choix (Football, Rugby, Basketball, Volleyball, etc.), vous ferez les adaptations nécessaires à chaque sport (nombre de titulaires par match par exemple).
+
+Avant de vous lancer dans le développement prenez le temps de bien réfléchir à votre application dans sa globalité. N'hésitez pas à faire des maquettes des différents écrans et posez-vous des questions d'ordre pratique (par exemple, est-ce qu'il ne serait pas intéressant de mémoriser le statut d'un match pour savoir s'il a déjà été préparé ou pas ?).
+
+Gardez à l'esprit que l'application devra être pratique à utiliser et accessible à des néophytes. Imaginez ce que ça ferait si vous deviez l'utiliser tous les jours !
+
+-
+
+<h2>Demande client</h2>
+<h3>Votre équipe favorite a besoin de vous !</h3>
 
 L'entraîneur vous demande de réaliser une application qui l'aidera à faire les sélections des joueurs pour les matchs.
 
@@ -14,17 +26,6 @@ Après chaque match, il souhaite pouvoir évaluer la performance de chaque joueu
 
 Enfin, il souhaite avoir des statistiques qui l'aideront dans sa prise de décision.
 
- 
-
-Ce projet doit être réalisé en binôme.
-
-Vous pouvez choisir le sport d'équipe de votre choix (Football, Rugby, Basketball, Volleyball, etc.), vous ferez les adaptations nécessaires à chaque sport (nombre de titulaires par match par exemple).
-
-Avant de vous lancer dans le développement prenez le temps de bien réfléchir à votre application dans sa globalité. N'hésitez pas à faire des maquettes des différents écrans et posez-vous des questions d'ordre pratique (par exemple, est-ce qu'il ne serait pas intéressant de mémoriser le statut d'un match pour savoir s'il a déjà été préparé ou pas ?).
-
-Gardez à l'esprit que l'application devra être pratique à utiliser et accessible à des néophytes. Imaginez ce que ça ferait si vous deviez l'utiliser tous les jours !
-
--
 
 <h4>Upload de la photo du joueur</h4>
 
