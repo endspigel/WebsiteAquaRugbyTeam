@@ -9,7 +9,6 @@ Avant de vous lancer dans le développement prenez le temps de bien réfléchir 
 
 Gardez à l'esprit que l'application devra être pratique à utiliser et accessible à des néophytes. Imaginez ce que ça ferait si vous deviez l'utiliser tous les jours !
 
--
 
 <h2>Demande client</h2>
 <h3>Votre équipe favorite a besoin de vous !</h3>
