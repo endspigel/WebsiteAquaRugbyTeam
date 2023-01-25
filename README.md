@@ -26,6 +26,13 @@ Après chaque match, il souhaite pouvoir évaluer la performance de chaque joueu
 
 Enfin, il souhaite avoir des statistiques qui l'aideront dans sa prise de décision.
 
+<h2> Demande technique </h2>
+
+Modèle de données
+
+Sur papier ou à l'aide de l'outil de votre choix, réaliser le modèle de données pour cette application.
+
+APRÈS L'AVOIR FAIT VALIDER par votre enseignant, créer la base de données MySQL correspondante.
 
 <h4>Upload de la photo du joueur</h4>
 
@@ -39,19 +46,11 @@ Pour uploader la photo des joueurs vous devez suivre les instructions suivantes 
 
 Les photos ainsi téléchargées appartiennent à l'utilisateur www-data, celui utilisé pour exécuter apache.
 
-Modèle de données
-
-Sur papier ou à l'aide de l'outil de votre choix, réaliser le modèle de données pour cette application.
-
-APRÈS L'AVOIR FAIT VALIDER par votre enseignant, créer la base de données MySQL correspondante.
-
- 
+<h2> Fonctionnalités attendues </h2>
 
 <h4>Gestion des joueurs et des matchs</h4>
 
 Créer les pages nécessaires à l'affichage, l'ajout, la modification, et la suppression des joueurs et des matchs.
-
- 
 
 <h4>Saisie des feuilles de match</h4>
 
