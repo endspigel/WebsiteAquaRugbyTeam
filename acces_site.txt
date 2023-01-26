@@ -1,0 +1,8 @@
+url du site : https://fabuloussteak.neiko.fr/index.php
+
+la page d'authentification ne marche pas mais si vous souhaitez vous y rendre la voici : https://fabuloussteak.neiko.fr/login.php
+Etant donné que cette page ne marche pas, nous avons autorisé l'accès aux autres pages avec l'url et nous avons mis en commentaire
+le code php permettant d'en bloquer l'accès si l'utilisateur n'est pas connecté
+
+login : test
+mdp : $test
