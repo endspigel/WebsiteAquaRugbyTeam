@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Ajout d'une rencontre</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Rugby sous-marin</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="joueur.php">Joueurs</a></li>
+        <li><a href="matchs.php">Match</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <form>
+        <input type="search" name="q" placeholder="search">
+        <input type="submit" value="Chercher">
+      </form>    
+    </nav>
+
+    <main>
+
+        <article>
+              <div> 
+                <h1> Insérer un joueur </h1>
+                <form action="insererJoueur.php" method="post">
+                <!--Section numéro de licence -->
+                <div id="IJ_NumLicence">
+                  <label for ="numLicence">Numéro de licence* : </label>
+                  <input type="text" name="numLicence" required minlength="10" maxlength="10" size="10"> 
+                </div>
+                <!--Section nom -->
+                <div id="IJ_Nom">
+                  <label for="nom">Nom* : </label>
+                  <input type="text" name="nom" size="10"> 
+                </div> 
+                <!--Section prénom -->
+                <div id="IJ_Prenom">
+                  <label for="prenom">Prénom* : </label>
+                  <input type="text" name="prenom" size="10"> 
+                </div>
+                <!--Section date de naissance -->
+                <div id="IJ_DDN">
+                  <label for="ddn">Date de naissance* : </label>
+                  <input type="date" name="ddn" size="10"> 
+                </div>
+                <!--Section taille -->
+                <div id="IJ_Taille">
+                  <label for="taille">Taille* (en cm) : </label>
+                  <input type="number" name="taille" size="5">
+                </div>
+                <!--Section poids -->
+                <div id="IJ_Poids">
+                  <label for="poids">Poids* (en kg) : </label>
+                  <input type="number"  name="poids" size="10"> 
+                </div>
+            
+                <!--Section poste préféré -->
+                <div id="IJ_PostPref">
+                <label for="postPref">Poste préféré : </label>
+                <select name="postPref">  <option value="optionPost">--Choisissez un poste--</option>
+                    <option value="Gardien">Gardien</option>
+                    <option value="Defenseur">Défenseur</option>
+                    <option value="Attaquant">Attaquant</option>
+                </select>
+                </div>
+            
+                <!--Section Statut -->
+                <div id="IJ_Statut">
+                <label for="statut">Statut : </label>
+                  <div id="IJ_Statut_Radio">
+                    <input type="radio" name="statut" value="Actif"><label for="Actif">Actif</label>
+                    <input type="radio" name="statut" value="Inactif"><label for="Inactif">Inactif</label>
+                    <input type="radio" name="statut" value="Blessé"><label for="Blessé">Blessé</label>
+                    <input type="radio" name="statut" value="Absent"><label for="Absent">Absent</label>
+            
+                  </div>
+                </div>
+            
+                  <!--Section commentaire -->
+                  <div id="IJ_Commentaire">
+                    <label for="commentaire">Commentaire : </label>
+                    <input type="text" id="IJ_Commentaire_Text" name="commentaire" size="30">
+                  </div>
+                  <!--Section photo joueur -->
+                  <div id="IJ_Photo"> 
+                    <label for="photo">Photo : </label>
+                    <input type="file" name="photo" accept="image/png, image/jpeg">
+                  </div>
+                  
+                  <input type="submit" value="Valider">
+                </form>
+              </div>
+            </article>
+            
+            <!-- the aside content can also be nested within the main content -->
+            <aside>
+                <h2>Related</h2>
+        
+                <ul>
+                  <li><a href="insererJoueur.html">Ajouter un joueur</a></li>
+                  <li><a href="#">Matchs à venir</a></li>
+                  <li><a href="ajoutMatch.php">Ajouter un match</a></li>
+                  <li><a href="#">It never stops raining</a></li>
+                  <li><a href="#">Oh well...</a></li>
+                </ul>
+            </aside>
+        </main>
+        
+        <footer>
+          <p>Un site de Mendy PAUL et Patrick JEANJEAN</p>
+    	  <p> All right reserved</p>
+        </footer>
+</body>
+</html>
