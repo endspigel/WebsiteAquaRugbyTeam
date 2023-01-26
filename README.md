@@ -1,4 +1,4 @@
-# Website for a aqua rugby team
+# Site web pour une équipe de rugby aquatique
 
 <h2>Consignes </h2>
 Ce projet doit être réalisé en binôme.
